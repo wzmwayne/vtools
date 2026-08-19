@@ -45,11 +45,24 @@ jobs:
 
       - name: Diagnose Kotlin sources
         run: |
-          ./gradlew :common:compileDebugKotlin --info --rerun-tasks > /tmp/diag.log 2>&1 || true
-          echo "=== kotlin/java source files passed ==="
-          grep -aoE "/home/runner/[^ ]+\.(kt|java)" /tmp/diag.log | sed 's/.*vtools\///' | sort -u | head -40
-          echo "=== errors ==="
-          grep -aE "^e: |error: " /tmp/diag.log | head -20
+          cat > /tmp/diag.gradle <<'EOF'
+allprojects { p ->
+    p.afterEvaluate {
+        if (p.path == ':common') {
+            println "== :common java srcDirs =="
+            println p.android.sourceSets.main.java.srcDirs
+            println "== :common kotlin srcDirs =="
+            println p.kotlin.sourceSets.main.kotlin.srcDirs
+            def kc = p.tasks.findByName('compileDebugKotlin')
+            if (kc != null) {
+                println "== compileDebugKotlin inputs =="
+                println kc.inputs.files.asPath.tokenize(':').findAll { it.contains('common/src') }
+            }
+        }
+    }
+}
+EOF
+          ./gradlew -q -I /tmp/diag.gradle help 2>&1 | head -20
 
       - name: Save Android SDK cache
         if: steps.sdk-cache.outputs.cache-hit != 'true'
