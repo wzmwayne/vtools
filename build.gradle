@@ -18,6 +18,8 @@ buildscript {
 
 allprojects {
     repositories {
+        // xposed api 本地仓库（jitpack 已拒绝未认证请求，故本地化 de.robv.android.xposed:api:82）
+        maven { url rootProject.file('xposed-repo') }
         // maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven {
             url 'https://jitpack.io'
