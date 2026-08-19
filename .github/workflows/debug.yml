@@ -21,7 +21,7 @@ jobs:
           ndk-version: r23b
           add-to-path: false
           link-to-sdk: true
-          local-cache: true
+          local-cache: false
 
       - name: Restore Android SDK cache
         uses: actions/cache/restore@v4
@@ -43,19 +43,10 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Diagnose NDK/CMake
+      - name: Build debug APK
         run: |
-          echo "ANDROID_HOME=$ANDROID_HOME ANDROID_NDK_HOME=$ANDROID_NDK_HOME"
-          ls -la /usr/local/lib/android/sdk/ndk/ 2>&1
-          readlink -f /usr/local/lib/android/sdk/ndk/23.1.7779620 2>&1
-          ls -la /usr/local/lib/android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ 2>&1 | grep -a clang | head
-          file /usr/local/lib/android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 2>&1
-          /usr/local/lib/android/sdk/cmake/3.10.2.4988404/bin/cmake --version 2>&1
-          /usr/local/lib/android/sdk/cmake/3.10.2.4988404/bin/cmake \
-            -S app/src/main/cpp -B /tmp/cmtest \
-            -DCMAKE_TOOLCHAIN_FILE=/usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake \
-            -DANDROID_ABI=armeabi-v7a -DANDROID_NDK=/usr/local/lib/android/sdk/ndk/23.1.7779620 \
-            -DANDROID_PLATFORM=android-30 -DCMAKE_BUILD_TYPE=Debug 2>&1 | tail -30
+          file /usr/local/lib/android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+          ./gradlew assembleDebug --build-cache
 
       - name: Save Android SDK cache
         if: steps.sdk-cache.outputs.cache-hit != 'true'
