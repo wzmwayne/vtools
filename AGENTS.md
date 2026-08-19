@@ -10,7 +10,11 @@ Android Root 系统调优应用，Kotlin + Java + C++ (JNI) + Shell 脚本。
 ⚠ **不要本地编译**。Gradle 6.5 / AGP 4.0.1 仅支持 JDK ≤ 14，本机只有 JDK 21+，本地无法构建。
 验证一律通过 GitHub Actions 工作流编译（`gh workflow run` 或推送 master 触发）：
 
-- `.github/workflows/debug.yml` — **debug 包 CI**，testkey 签名，含 NDK / Gradle / SDK 组件全量缓存，产出 `app/build/outputs/apk/debug/app-debug.apk`
+- `.github/workflows/debug.yml` — **debug 包 CI**，testkey 签名，产出 `app/build/outputs/apk/debug/app-debug.apk`
+  - 依赖（jitpack 已 401 认证失效，`de.robv.android.xposed:api:82` 已本地化为 `xposed-repo/` 本地 maven，root `build.gradle` allprojects 中置于 jitpack 之前）
+  - NDK 用 `nttld/setup-ndk@v1` r23b，**`local-cache: false` 必须关闭**——其内部缓存会固化绝对符号链接（`clang -> /opt/hostedtoolcache/ndk/r23b/x64/...`），缓存恢复后 clang 变断链，报 `CMAKE_C_COMPILER is not a full path to an existing compiler tool`（下载本身 ~200MB/s，不缓存反而稳）
+  - SDK 缓存只缓存必要组件：`platforms/android-30`、`build-tools/29.0.2`、`cmake/3.10.2`（整镜像几 GB 上传会卡死），restore→构建→save 分步
+  - CMake 版本 `3.10.2` 与 NDK r23b 是项目自带组合，能过但会打 "old CMake" 警告（噪音，非失败原因）
 - `.github/workflows/android.yml`、`Scene5.yml` — release 构建（沿用旧 helloklf deploy 逻辑，待清理）
 
 ## 测试 / Lint
@@ -32,6 +36,7 @@ Android Root 系统调优应用，Kotlin + Java + C++ (JNI) + Shell 脚本。
 - 子包保持原有后缀：`com.wzmwayne.scene.activities`、`com.wzmwayne.scene.scene_mode`、`com.wzmwayne.scene.xposed` 等
 - 模块命名空间：`com.wzmwayne.scene.common`、`com.wzmwayne.scene.krscript`
 - Manifest `package` 与 `applicationId` 均为 `com.wzmwayne.scene`
+- 改包名时要连 `package` 声明、import、R 引用、布局 `android:name`、proguard keep、assets shell（自引用 action/service）、manifest package/类名/action、`applicationId` 一起改；只移动目录会导致 Kotlin 联合编译时 Java 类注册在旧包、同包引用全部 Unresolved（本次已踩坑修复）
 
 ## 关键入口
 
