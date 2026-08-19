@@ -1,4 +1,4 @@
-package com.omarea.krscript.model
+package com.wzmwayne.scene.krscript.model
 
 import java.io.File
 import java.io.Serializable

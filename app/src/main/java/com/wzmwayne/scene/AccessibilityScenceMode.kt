@@ -1,4 +1,4 @@
-package com.omarea.vtools
+package com.wzmwayne.scene
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.AccessibilityServiceInfo
@@ -12,20 +12,20 @@ import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import android.view.accessibility.AccessibilityWindowInfo
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.data.IEventReceiver
-import com.omarea.library.basic.InputMethodApp
-import com.omarea.library.basic.LauncherApps
-import com.omarea.library.calculator.Flags
-import com.omarea.scene_mode.AppSwitchHandler
-import com.omarea.scene_mode.AutoClickInstall
-import com.omarea.scene_mode.AutoSkipAd
-import com.omarea.store.SpfConfig
-import com.omarea.utils.AutoSkipCloudData
-import com.omarea.vtools.popup.FloatLogView
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.library.basic.InputMethodApp
+import com.wzmwayne.scene.library.basic.LauncherApps
+import com.wzmwayne.scene.library.calculator.Flags
+import com.wzmwayne.scene.scene_mode.AppSwitchHandler
+import com.wzmwayne.scene.scene_mode.AutoClickInstall
+import com.wzmwayne.scene.scene_mode.AutoSkipAd
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.AutoSkipCloudData
+import com.wzmwayne.scene.popup.FloatLogView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -238,7 +238,7 @@ public class AccessibilityScenceMode : AccessibilityService(), IEventReceiver {
                     return
                 }
                 */
-                // packageName == "com.omarea.vtools" -> return
+                // packageName == "com.wzmwayne.scene" -> return
                 packageName.contains("packageinstaller") -> {
                     if (event.className == "com.android.packageinstaller.permission.ui.GrantPermissionsActivity") // MIUI权限控制器
                         return

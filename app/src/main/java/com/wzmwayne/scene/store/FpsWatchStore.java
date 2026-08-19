@@ -1,11 +1,11 @@
-package com.omarea.store;
+package com.wzmwayne.scene.store;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.omarea.model.FpsWatchSession;
+import com.wzmwayne.scene.model.FpsWatchSession;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,8 @@
-package com.omarea.library.shell;
+package com.wzmwayne.scene.library.shell;
 
 import android.annotation.SuppressLint;
 
-import com.omarea.common.shell.KernelProrp;
+import com.wzmwayne.scene.common.shell.KernelProrp;
 
 import java.util.HashMap;
 

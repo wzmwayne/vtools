@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -10,11 +10,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.*
-import com.omarea.common.ui.DialogHelper
-import com.omarea.library.shell.ProcessUtils
-import com.omarea.model.ProcessInfo
-import com.omarea.ui.AdapterProcess
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.library.shell.ProcessUtils
+import com.wzmwayne.scene.model.ProcessInfo
+import com.wzmwayne.scene.ui.AdapterProcess
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activty_process.*
 import java.util.*
 

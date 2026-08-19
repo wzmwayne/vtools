@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.GestureDescription

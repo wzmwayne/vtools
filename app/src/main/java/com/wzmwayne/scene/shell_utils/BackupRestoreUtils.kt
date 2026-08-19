@@ -1,13 +1,13 @@
-package com.omarea.shell_utils
+package com.wzmwayne.scene.shell_utils
 
 import android.app.Activity
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.RootFile
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.utils.CommonCmds
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.utils.CommonCmds
 
 /**
  * Created by Hello on 2017/11/01.

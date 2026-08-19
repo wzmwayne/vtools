@@ -1,4 +1,4 @@
-package com.omarea.filter
+package com.wzmwayne.scene.ui
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,8 +7,8 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
-import com.omarea.store.ChargeSpeedStore
-import com.omarea.vtools.R
+import com.wzmwayne.scene.store.ChargeSpeedStore
+import com.wzmwayne.scene.R
 import kotlin.math.abs
 
 class ChargeCurveView : View {

@@ -1,4 +1,4 @@
-package com.omarea.library.basic
+package com.wzmwayne.scene.library.basic
 
 import android.accessibilityservice.AccessibilityServiceInfo
 import android.content.Context

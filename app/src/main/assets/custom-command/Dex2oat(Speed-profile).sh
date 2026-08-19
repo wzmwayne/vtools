@@ -1,1 +1,1 @@
-am startservice -n com.omarea.vtools/.services.CompileService -a com.omarea.vtools.SpeedProfileCompile
+am startservice -n com.wzmwayne.scene/.services.CompileService -a com.wzmwayne.scene.SpeedProfileCompile

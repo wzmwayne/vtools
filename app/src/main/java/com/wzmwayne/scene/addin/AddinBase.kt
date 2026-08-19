@@ -1,7 +1,7 @@
-package com.omarea.vtools.addin
+package com.wzmwayne.scene.addin
 
 import android.app.Activity
-import com.omarea.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
 
 /**
  * Created by Hello on 2018/02/20.

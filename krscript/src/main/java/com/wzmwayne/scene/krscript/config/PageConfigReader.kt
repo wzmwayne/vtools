@@ -1,4 +1,4 @@
-package com.omarea.krscript.config
+package com.wzmwayne.scene.krscript.config
 
 import android.content.Context
 import android.graphics.Color
@@ -9,10 +9,10 @@ import android.text.Layout
 import android.util.Log
 import android.util.Xml
 import android.widget.Toast
-import com.omarea.common.model.SelectItem
-import com.omarea.krscript.executor.ExtractAssets
-import com.omarea.krscript.executor.ScriptEnvironmen
-import com.omarea.krscript.model.*
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.krscript.executor.ExtractAssets
+import com.wzmwayne.scene.krscript.executor.ScriptEnvironmen
+import com.wzmwayne.scene.krscript.model.*
 import org.xmlpull.v1.XmlPullParser
 import java.io.InputStream
 

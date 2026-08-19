@@ -1,19 +1,19 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.SimpleAdapter
-import com.omarea.common.ui.DialogHelper
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
-import com.omarea.vtools.addin.DexCompileAddin
-import com.omarea.vtools.addin.Immersive
-import com.omarea.vtools.dialogs.DialogAddinModifyDPI
-import com.omarea.vtools.dialogs.DialogAddinModifyDevice
-import com.omarea.vtools.dialogs.DialogAddinWIFI
-import com.omarea.vtools.dialogs.DialogCustomMAC
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.addin.DexCompileAddin
+import com.wzmwayne.scene.addin.Immersive
+import com.wzmwayne.scene.dialogs.DialogAddinModifyDPI
+import com.wzmwayne.scene.dialogs.DialogAddinModifyDevice
+import com.wzmwayne.scene.dialogs.DialogAddinWIFI
+import com.wzmwayne.scene.dialogs.DialogCustomMAC
 import kotlinx.android.synthetic.main.activity_addin.*
 import java.util.*
 

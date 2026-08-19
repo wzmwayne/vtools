@@ -1,8 +1,8 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.app.IntentService
 import android.content.Intent
-import com.omarea.store.TriggerStorage
+import com.wzmwayne.scene.store.TriggerStorage
 
 class TriggerExecutorService : IntentService("TriggerExecutorService") {
 

@@ -1,7 +1,7 @@
-package com.omarea.common.shell
+package com.wzmwayne.scene.common.shell
 
 import android.util.Log
-import com.omarea.common.shared.RootFileInfo
+import com.wzmwayne.scene.common.shared.RootFileInfo
 
 /**
  * Created by Hello on 2018/07/06.

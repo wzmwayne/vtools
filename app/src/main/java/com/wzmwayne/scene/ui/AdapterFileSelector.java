@@ -1,4 +1,4 @@
-package com.omarea.ui;
+package com.wzmwayne.scene.ui;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.omarea.common.ui.DialogHelper;
-import com.omarea.common.ui.ProgressBarDialog;
-import com.omarea.vtools.R;
+import com.wzmwayne.scene.common.ui.DialogHelper;
+import com.wzmwayne.scene.common.ui.ProgressBarDialog;
+import com.wzmwayne.scene.R;
 
 import java.io.File;
 import java.io.FileFilter;

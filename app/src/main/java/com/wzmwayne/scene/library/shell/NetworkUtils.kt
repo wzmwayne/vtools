@@ -1,8 +1,8 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.content.Context
 import android.content.Intent
-import com.omarea.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KeepShellPublic
 
 
 // 飞行模式

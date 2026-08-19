@@ -1,8 +1,8 @@
-package com.omarea.krscript.executor;
+package com.wzmwayne.scene.krscript.executor;
 
 import android.content.Context;
 
-import com.omarea.common.shared.FileWrite;
+import com.wzmwayne.scene.common.shared.FileWrite;
 
 import java.util.HashMap;
 

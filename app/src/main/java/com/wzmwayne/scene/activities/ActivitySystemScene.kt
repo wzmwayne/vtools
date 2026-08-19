@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.Context
 import android.content.Intent
@@ -9,24 +9,24 @@ import android.os.Handler
 import android.os.Looper
 import android.view.View
 import android.widget.LinearLayout
-import com.omarea.common.ui.AdapterAppChooser
-import com.omarea.common.ui.DialogAppChooser
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.library.calculator.GetUpTime
-import com.omarea.model.AppInfo
-import com.omarea.model.TimingTaskInfo
-import com.omarea.model.TriggerInfo
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.scene_mode.SceneStandbyMode
-import com.omarea.scene_mode.TimingTaskManager
-import com.omarea.scene_mode.TriggerManager
-import com.omarea.store.SpfConfig
-import com.omarea.ui.SceneTaskItem
-import com.omarea.ui.SceneTriggerItem
-import com.omarea.ui.TabIconHelper
-import com.omarea.utils.AppListHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.AdapterAppChooser
+import com.wzmwayne.scene.common.ui.DialogAppChooser
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.library.calculator.GetUpTime
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.model.TimingTaskInfo
+import com.wzmwayne.scene.model.TriggerInfo
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.scene_mode.SceneStandbyMode
+import com.wzmwayne.scene.scene_mode.TimingTaskManager
+import com.wzmwayne.scene.scene_mode.TriggerManager
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.ui.SceneTaskItem
+import com.wzmwayne.scene.ui.SceneTriggerItem
+import com.wzmwayne.scene.ui.TabIconHelper
+import com.wzmwayne.scene.utils.AppListHelper
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_system_scene.*
 
 class ActivitySystemScene : ActivityBase() {

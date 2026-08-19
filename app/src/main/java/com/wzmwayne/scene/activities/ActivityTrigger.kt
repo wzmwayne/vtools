@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.app.TimePickerDialog
 import android.os.Build
@@ -9,17 +9,17 @@ import android.view.View
 import android.widget.Checkable
 import android.widget.CompoundButton
 import android.widget.Toast
-import com.omarea.common.model.SelectItem
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.ui.DialogItemChooser2
-import com.omarea.data.EventType
-import com.omarea.krscript.executor.ExtractAssets
-import com.omarea.model.CustomTaskAction
-import com.omarea.model.TaskAction
-import com.omarea.model.TriggerInfo
-import com.omarea.scene_mode.TriggerManager
-import com.omarea.store.TriggerStorage
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.ui.DialogItemChooser2
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.krscript.executor.ExtractAssets
+import com.wzmwayne.scene.model.CustomTaskAction
+import com.wzmwayne.scene.model.TaskAction
+import com.wzmwayne.scene.model.TriggerInfo
+import com.wzmwayne.scene.scene_mode.TriggerManager
+import com.wzmwayne.scene.store.TriggerStorage
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_trigger.*
 import java.io.File
 import java.io.FilenameFilter

@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.Manifest
 import android.app.Activity
@@ -22,13 +22,13 @@ import android.view.WindowManager
 import android.webkit.*
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import com.omarea.common.shared.FilePathResolver
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.krscript.WebViewInjector
-import com.omarea.krscript.downloader.Downloader
-import com.omarea.krscript.ui.ParamsFileChooserRender
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FilePathResolver
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.krscript.WebViewInjector
+import com.wzmwayne.scene.krscript.downloader.Downloader
+import com.wzmwayne.scene.krscript.ui.ParamsFileChooserRender
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_action_page_online.*
 import java.util.*
 

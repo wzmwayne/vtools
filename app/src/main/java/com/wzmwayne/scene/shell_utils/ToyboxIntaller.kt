@@ -1,10 +1,10 @@
-package com.omarea.shell_utils
+package com.wzmwayne.scene.shell_utils
 
 import android.content.Context
 import android.os.Build
-import com.omarea.common.shared.FileWrite.getPrivateFilePath
-import com.omarea.common.shared.FileWrite.writePrivateFile
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite.getPrivateFilePath
+import com.wzmwayne.scene.common.shared.FileWrite.writePrivateFile
+import com.wzmwayne.scene.R
 import java.io.File
 import java.util.*
 

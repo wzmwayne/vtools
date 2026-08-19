@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.content.*
@@ -15,13 +15,13 @@ import android.widget.EditText
 import android.widget.Switch
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import com.omarea.common.ui.DialogHelper
-import com.omarea.store.SpfConfig
-import com.omarea.store.XposedExtension
-import com.omarea.ui.IntInputFilter
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.store.XposedExtension
+import com.wzmwayne.scene.ui.IntInputFilter
 import com.omarea.vaddin.IAppConfigAidlInterface
-import com.omarea.vtools.R
-import com.omarea.xposed.XposedCheck
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.xposed.XposedCheck
 import kotlinx.android.synthetic.main.activity_app_xposed_details.*
 import org.json.JSONObject
 

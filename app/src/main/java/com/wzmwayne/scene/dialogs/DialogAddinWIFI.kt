@@ -1,10 +1,10 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.content.Context
 import android.os.Build
 import android.widget.Toast
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
 import java.io.ByteArrayInputStream
 import java.io.InputStream
 import javax.xml.parsers.DocumentBuilderFactory

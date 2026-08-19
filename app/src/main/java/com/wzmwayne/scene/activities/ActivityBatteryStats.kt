@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.os.BatteryManager
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.os.Looper
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import com.omarea.store.BatteryHistoryStore
-import com.omarea.ui.AdapterBatteryStats
-import com.omarea.vtools.R
+import com.wzmwayne.scene.store.BatteryHistoryStore
+import com.wzmwayne.scene.ui.AdapterBatteryStats
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_battery_stats.*
 import java.util.*
 import kotlin.math.abs

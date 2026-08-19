@@ -1,4 +1,4 @@
-package com.omarea.ui;
+package com.wzmwayne.scene.ui;
 
 import android.content.Context;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.omarea.vtools.R;
+import com.wzmwayne.scene.R;
 
 /**
  * 显示简单文本内容的Adapter

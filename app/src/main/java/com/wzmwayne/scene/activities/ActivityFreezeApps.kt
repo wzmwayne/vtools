@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.ComponentName
 import android.content.Context
@@ -19,22 +19,22 @@ import android.widget.CompoundButton
 import android.widget.Filterable
 import android.widget.SeekBar
 import android.widget.Toast
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.AdapterAppChooser
-import com.omarea.common.ui.DialogAppChooser
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.library.shell.GAppsUtilis
-import com.omarea.model.AppInfo
-import com.omarea.scene_mode.FreezeAppShortcutHelper
-import com.omarea.scene_mode.LogoCacheManager
-import com.omarea.scene_mode.SceneMode
-import com.omarea.store.SceneConfigStore
-import com.omarea.store.SpfConfig
-import com.omarea.ui.FreezeAppAdapter
-import com.omarea.ui.TabIconHelper
-import com.omarea.utils.AppListHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.AdapterAppChooser
+import com.wzmwayne.scene.common.ui.DialogAppChooser
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.library.shell.GAppsUtilis
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.scene_mode.FreezeAppShortcutHelper
+import com.wzmwayne.scene.scene_mode.LogoCacheManager
+import com.wzmwayne.scene.scene_mode.SceneMode
+import com.wzmwayne.scene.store.SceneConfigStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.ui.FreezeAppAdapter
+import com.wzmwayne.scene.ui.TabIconHelper
+import com.wzmwayne.scene.utils.AppListHelper
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_freeze_apps.*
 
 class ActivityFreezeApps : ActivityBase() {

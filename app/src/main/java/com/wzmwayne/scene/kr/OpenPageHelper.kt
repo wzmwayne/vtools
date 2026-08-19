@@ -5,10 +5,10 @@ import android.content.Intent
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.krscript.model.PageNode
-import com.omarea.vtools.activities.ActionPage
-import com.omarea.vtools.activities.ActivityAddinOnline
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.krscript.model.PageNode
+import com.wzmwayne.scene.activities.ActionPage
+import com.wzmwayne.scene.activities.ActivityAddinOnline
 
 class OpenPageHelper(private var activity: Activity) {
     private var progressBarDialog: ProgressBarDialog? = null

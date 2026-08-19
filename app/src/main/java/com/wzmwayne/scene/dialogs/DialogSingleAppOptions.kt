@@ -1,4 +1,4 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.app.Activity
 import android.content.ClipboardManager
@@ -14,11 +14,11 @@ import android.widget.CompoundButton
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.common.shared.MagiskExtend
-import com.omarea.common.ui.DialogHelper
-import com.omarea.model.AppInfo
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.MagiskExtend
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
 import java.io.File
 
 /**

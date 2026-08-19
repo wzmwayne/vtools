@@ -1,4 +1,4 @@
-package com.omarea.common.ui
+package com.wzmwayne.scene.common.ui
 
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
@@ -10,7 +10,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.DecelerateInterpolator
-import com.omarea.common.R
+import com.wzmwayne.scene.common.R
 
 class ProgressCircle : View {
     //-------------必须给的数据相关-------------

@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -6,15 +6,15 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.CompoundButton
-import com.omarea.common.ui.AdapterAppChooser
-import com.omarea.common.ui.DialogAppChooser
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.store.SpfConfig
-import com.omarea.utils.AppListHelper
-import com.omarea.utils.AutoSkipCloudData
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.AdapterAppChooser
+import com.wzmwayne.scene.common.ui.DialogAppChooser
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.AppListHelper
+import com.wzmwayne.scene.utils.AutoSkipCloudData
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_auto_click.*
 
 

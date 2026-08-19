@@ -1,11 +1,11 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.widget.ImageButton
 import android.widget.TextView
-import com.omarea.common.ui.DialogHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.R
 
 class DialogNumberInput(private val context: Context) {
     interface DialogNumberInputRequest {

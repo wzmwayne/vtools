@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.content.Context
 import android.graphics.Color
@@ -9,16 +9,16 @@ import android.provider.Settings
 import android.view.*
 import android.view.WindowManager.LayoutParams
 import android.widget.*
-import com.omarea.Scene
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.library.permissions.NotificationListener
-import com.omarea.library.shell.LocationHelper
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.store.SceneConfigStore
-import com.omarea.store.SpfConfig
-import com.omarea.utils.AccessibleServiceHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.library.permissions.NotificationListener
+import com.wzmwayne.scene.library.shell.LocationHelper
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.store.SceneConfigStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.AccessibleServiceHelper
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.Intent
 import android.os.*
@@ -6,13 +6,13 @@ import android.provider.Settings
 import android.text.Editable
 import android.view.inputmethod.EditorInfo
 import android.widget.Toast
-import com.omarea.ui.SearchTextWatcher
-import com.omarea.ui.TabIconHelper2
-import com.omarea.vtools.R
-import com.omarea.vtools.fragments.FragmentAppBackup
-import com.omarea.vtools.fragments.FragmentAppHelp
-import com.omarea.vtools.fragments.FragmentAppSystem
-import com.omarea.vtools.fragments.FragmentAppUser
+import com.wzmwayne.scene.ui.SearchTextWatcher
+import com.wzmwayne.scene.ui.TabIconHelper2
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.fragments.FragmentAppBackup
+import com.wzmwayne.scene.fragments.FragmentAppHelp
+import com.wzmwayne.scene.fragments.FragmentAppSystem
+import com.wzmwayne.scene.fragments.FragmentAppUser
 import kotlinx.android.synthetic.main.activity_applictions.*
 
 class ActivityApplistions : ActivityBase() {

@@ -1,4 +1,4 @@
-package com.omarea.vtools.services
+package com.wzmwayne.scene.services
 
 import android.app.ActivityManager
 import android.app.IntentService
@@ -10,22 +10,22 @@ import android.content.SharedPreferences
 import android.os.Build
 import android.os.PowerManager
 import androidx.core.app.NotificationCompat
-import com.omarea.common.shared.RawText
-import com.omarea.common.shell.KeepShell
-import com.omarea.common.shell.KernelProrp
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.library.shell.LMKUtils
-import com.omarea.library.shell.PropsUtils
-import com.omarea.library.shell.SwapUtils
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.scene_mode.SceneMode
-import com.omarea.store.CpuConfigStorage
-import com.omarea.store.SceneConfigStore
-import com.omarea.store.SpfConfig
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.RawText
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.common.shell.KernelProrp
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.library.shell.LMKUtils
+import com.wzmwayne.scene.library.shell.PropsUtils
+import com.wzmwayne.scene.library.shell.SwapUtils
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.scene_mode.SceneMode
+import com.wzmwayne.scene.store.CpuConfigStorage
+import com.wzmwayne.scene.store.SceneConfigStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
 
 /**
  * Created by Hello on 2017/12/27.

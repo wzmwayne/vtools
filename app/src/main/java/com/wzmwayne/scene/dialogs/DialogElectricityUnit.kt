@@ -1,4 +1,4 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.content.Context
 import android.os.BatteryManager
@@ -9,11 +9,11 @@ import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
-import com.omarea.common.ui.DialogHelper
-import com.omarea.data.GlobalStatus
-import com.omarea.store.ChargeSpeedStore
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.store.ChargeSpeedStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 import java.util.*
 
 class DialogElectricityUnit {

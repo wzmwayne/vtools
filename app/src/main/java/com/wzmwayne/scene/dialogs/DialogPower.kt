@@ -1,10 +1,10 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.app.Activity
 import android.view.View
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.R
 
 class DialogPower(var context: Activity) {
     fun showPowerMenu() {

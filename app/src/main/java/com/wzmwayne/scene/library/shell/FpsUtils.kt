@@ -1,8 +1,8 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
-import com.omarea.common.shell.KeepShell
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.RootFile.fileExists
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.RootFile.fileExists
 
 /**
  * 帧率检测

@@ -1,4 +1,4 @@
-package com.omarea.vtools.services
+package com.wzmwayne.scene.services
 
 import android.app.IntentService
 import android.app.NotificationChannel
@@ -11,10 +11,10 @@ import android.os.PowerManager
 import android.os.PowerManager.PARTIAL_WAKE_LOCK
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShell
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.R
 import java.nio.charset.Charset
 import java.util.*
 
@@ -121,14 +121,14 @@ class CompileService : IntentService("vtools-compile") {
             for (packageName in packageNames) {
                 if (true) {
                     updateNotification(getString(R.string.dex2oat_reset_running), packageName, total, current)
-                    cmdBuilder.append("am broadcast -n com.omarea.vtools/com.omarea.vtools.ReceiverCompileState --ei current $current --ei total $total --es packageName $packageName\n")
+                    cmdBuilder.append("am broadcast -n com.wzmwayne.scene/com.wzmwayne.scene.ReceiverCompileState --ei current $current --ei total $total --es packageName $packageName\n")
                     cmdBuilder.append("cmd package compile --reset ${packageName}\n")
                     current++
                 } else {
                     break
                 }
             }
-            cmdBuilder.append("am broadcast -n com.omarea.vtools/com.omarea.vtools.ReceiverCompileState --ei current $total --ei total $total --es packageName OK\n")
+            cmdBuilder.append("am broadcast -n com.wzmwayne.scene/com.wzmwayne.scene.ReceiverCompileState --ei current $total --ei total $total --es packageName OK\n")
             val cache = "/dex2oat/reset.sh"
             if (FileWrite.writePrivateFile(cmdBuilder.toString().toByteArray(Charset.defaultCharset()), cache, this.applicationContext)) {
                 val shellFile = FileWrite.getPrivateFilePath(this.applicationContext, cache)

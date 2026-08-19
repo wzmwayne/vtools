@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.app.TimePickerDialog
 import android.os.Build
@@ -8,17 +8,17 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.CompoundButton
 import android.widget.Toast
-import com.omarea.common.model.SelectItem
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.ui.DialogItemChooser2
-import com.omarea.krscript.executor.ExtractAssets
-import com.omarea.library.calculator.GetUpTime
-import com.omarea.model.CustomTaskAction
-import com.omarea.model.TaskAction
-import com.omarea.model.TimingTaskInfo
-import com.omarea.scene_mode.TimingTaskManager
-import com.omarea.store.TimingTaskStorage
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.ui.DialogItemChooser2
+import com.wzmwayne.scene.krscript.executor.ExtractAssets
+import com.wzmwayne.scene.library.calculator.GetUpTime
+import com.wzmwayne.scene.model.CustomTaskAction
+import com.wzmwayne.scene.model.TaskAction
+import com.wzmwayne.scene.model.TimingTaskInfo
+import com.wzmwayne.scene.scene_mode.TimingTaskManager
+import com.wzmwayne.scene.store.TimingTaskStorage
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_timing_task.*
 import java.io.File
 import java.io.FilenameFilter

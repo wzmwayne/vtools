@@ -1,8 +1,8 @@
-package com.omarea.model;
+package com.wzmwayne.scene.model;
 
 import android.graphics.drawable.Drawable;
 
-import com.omarea.common.ui.AdapterAppChooser;
+import com.wzmwayne.scene.common.ui.AdapterAppChooser;
 
 /**
  * 应用信息

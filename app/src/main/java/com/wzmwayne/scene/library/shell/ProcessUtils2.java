@@ -1,11 +1,11 @@
-package com.omarea.library.shell;
+package com.wzmwayne.scene.library.shell;
 
 import android.content.Context;
 
-import com.omarea.common.shell.KeepShellPublic;
-import com.omarea.model.ProcessInfo;
-import com.omarea.model.ThreadInfo;
-import com.omarea.shell_utils.ToyboxIntaller;
+import com.wzmwayne.scene.common.shell.KeepShellPublic;
+import com.wzmwayne.scene.model.ProcessInfo;
+import com.wzmwayne.scene.model.ThreadInfo;
+import com.wzmwayne.scene.shell_utils.ToyboxIntaller;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -76,7 +76,7 @@ public class ProcessUtils2 {
             add("toybox-outside64");
             add("ps");
             add("top");
-            add("com.omarea.vtools");
+            add("com.wzmwayne.scene");
         }
     };
 

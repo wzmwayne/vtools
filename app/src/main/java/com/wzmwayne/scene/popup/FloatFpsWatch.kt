@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.accessibilityservice.AccessibilityService
 import android.annotation.SuppressLint
@@ -17,15 +17,15 @@ import android.view.WindowManager.LayoutParams
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.data.IEventReceiver
-import com.omarea.library.shell.FpsUtils
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.store.FpsWatchStore
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.library.shell.FpsUtils
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.store.FpsWatchStore
+import com.wzmwayne.scene.R
 import java.util.*
 
 public class FloatFpsWatch(private val mContext: Context) {

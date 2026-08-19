@@ -1,11 +1,11 @@
-package com.omarea.vtools.fragments
+package com.wzmwayne.scene.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.omarea.permissions.CheckRootStatus
-import com.omarea.vtools.R
+import com.wzmwayne.scene.permissions.CheckRootStatus
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.fragment_not_root.*
 
 

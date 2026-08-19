@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -14,18 +14,18 @@ import android.widget.CompoundButton
 import android.widget.Switch
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
-import com.omarea.Scene
-import com.omarea.common.shared.FilePathResolver
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.library.shell.ThermalDisguise
-import com.omarea.scene_mode.CpuConfigInstaller
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FilePathResolver
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.library.shell.ThermalDisguise
+import com.wzmwayne.scene.scene_mode.CpuConfigInstaller
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_cpu_modes.*
 import java.io.File
 import java.nio.charset.Charset

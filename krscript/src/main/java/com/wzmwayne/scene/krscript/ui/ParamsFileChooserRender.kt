@@ -1,12 +1,12 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
-import com.omarea.krscript.R
-import com.omarea.krscript.model.ActionParamInfo
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.model.ActionParamInfo
 
 class ParamsFileChooserRender(private var actionParamInfo: ActionParamInfo, private var context: Context, private var fileChooser: FileChooserInterface?) {
     interface FileChooserInterface {

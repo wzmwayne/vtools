@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.app.ActivityManager
 import android.content.ContentResolver
@@ -6,16 +6,16 @@ import android.content.Context
 import android.os.Build
 import android.provider.Settings
 import android.util.Log
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.library.shell.*
-import com.omarea.model.SceneConfigInfo
-import com.omarea.store.SceneConfigStore
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.AccessibilityScenceMode
-import com.omarea.vtools.popup.FloatMonitorMini
-import com.omarea.vtools.popup.FloatScreenRotation
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.library.shell.*
+import com.wzmwayne.scene.model.SceneConfigInfo
+import com.wzmwayne.scene.store.SceneConfigStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.AccessibilityScenceMode
+import com.wzmwayne.scene.popup.FloatMonitorMini
+import com.wzmwayne.scene.popup.FloatScreenRotation
 import java.nio.charset.Charset
 import java.util.*
 import kotlin.collections.ArrayList

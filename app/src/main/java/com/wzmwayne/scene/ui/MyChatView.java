@@ -1,4 +1,4 @@
-package com.omarea.ui;
+package com.wzmwayne.scene.ui;
 
 import android.content.Context;
 import android.graphics.Canvas;

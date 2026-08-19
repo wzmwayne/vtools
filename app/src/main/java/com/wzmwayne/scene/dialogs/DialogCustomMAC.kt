@@ -1,4 +1,4 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
-import com.omarea.common.shared.RawText
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.RawText
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 
 /**
  * Created by Hello on 2018/01/17.

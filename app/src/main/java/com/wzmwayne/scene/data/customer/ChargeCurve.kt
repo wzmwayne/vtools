@@ -1,12 +1,12 @@
-package com.omarea.data.customer
+package com.wzmwayne.scene.data.customer
 
 import android.content.Context
 import android.os.BatteryManager
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.data.IEventReceiver
-import com.omarea.store.ChargeSpeedStore
-import com.omarea.store.SpfConfig
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.store.ChargeSpeedStore
+import com.wzmwayne.scene.store.SpfConfig
 import java.util.*
 
 class ChargeCurve(context: Context) : IEventReceiver {

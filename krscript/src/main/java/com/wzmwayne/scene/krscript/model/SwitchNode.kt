@@ -1,4 +1,4 @@
-package com.omarea.krscript.model
+package com.wzmwayne.scene.krscript.model
 
 class SwitchNode(currentConfigXml: String) : RunnableNode(currentConfigXml){
     var getState: String = ""

@@ -1,11 +1,11 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.ui.DialogHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_custom_command.*
 import java.io.File
 import java.net.URLEncoder

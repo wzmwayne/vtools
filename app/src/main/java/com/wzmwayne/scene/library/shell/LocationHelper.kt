@@ -1,7 +1,7 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.os.Build
-import com.omarea.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KeepShellPublic
 
 /**
  * 定位功能开关

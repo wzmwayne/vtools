@@ -1,11 +1,11 @@
-package com.omarea.common.ui
+package com.wzmwayne.scene.common.ui
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.omarea.common.R
-import com.omarea.common.model.SelectItem
+import com.wzmwayne.scene.common.R
+import com.wzmwayne.scene.common.model.SelectItem
 import java.util.*
 
 class AdapterItemChooser2(

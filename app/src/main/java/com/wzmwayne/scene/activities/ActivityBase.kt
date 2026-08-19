@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.app.ActivityManager
 import android.content.Context
@@ -7,10 +7,10 @@ import android.os.PersistableBundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.omarea.Scene
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.ThemeMode
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.ThemeMode
+import com.wzmwayne.scene.R
 
 open class ActivityBase : AppCompatActivity() {
     public lateinit var themeMode: ThemeMode

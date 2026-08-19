@@ -1,12 +1,12 @@
-package com.omarea.krscript
+package com.wzmwayne.scene.krscript
 
 import android.content.Context
 import android.os.Bundle
 import android.text.SpannableString
 import android.widget.Toast
-import com.omarea.krscript.executor.ShellExecutor
-import com.omarea.krscript.model.RunnableNode
-import com.omarea.krscript.model.ShellHandlerBase
+import com.wzmwayne.scene.krscript.executor.ShellExecutor
+import com.wzmwayne.scene.krscript.model.RunnableNode
+import com.wzmwayne.scene.krscript.model.ShellHandlerBase
 
 class HiddenTaskThread(private var process: Process) : Thread() {
     override fun run() {

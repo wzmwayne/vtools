@@ -1,4 +1,4 @@
-package com.omarea.model;
+package com.wzmwayne.scene.model;
 
 import android.content.pm.ActivityInfo;
 

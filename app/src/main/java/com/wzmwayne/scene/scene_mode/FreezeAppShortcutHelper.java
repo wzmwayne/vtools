@@ -1,4 +1,4 @@
-package com.omarea.scene_mode;
+package com.wzmwayne.scene.scene_mode;
 
 import android.app.PendingIntent;
 import android.content.ComponentName;
@@ -19,8 +19,8 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
-import com.omarea.vtools.R;
-import com.omarea.vtools.activities.ActivityQuickStart;
+import com.wzmwayne.scene.R;
+import com.wzmwayne.scene.activities.ActivityQuickStart;
 
 import java.util.ArrayList;
 import java.util.List;

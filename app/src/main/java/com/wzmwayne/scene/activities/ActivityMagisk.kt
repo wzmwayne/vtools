@@ -1,15 +1,15 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.os.Bundle
 import android.widget.Toast
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shared.MagiskExtend
-import com.omarea.common.shared.RootFileInfo
-import com.omarea.common.shell.RootFile
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.ui.AdapterRootFileSelector
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shared.MagiskExtend
+import com.wzmwayne.scene.common.shared.RootFileInfo
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.ui.AdapterRootFileSelector
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_magisk.*
 import java.io.File
 

@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.accessibilityservice.AccessibilityService
 import android.content.Context
@@ -7,9 +7,9 @@ import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.store.AutoSkipConfigStore
-import com.omarea.store.SpfConfig
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.store.AutoSkipConfigStore
+import com.wzmwayne.scene.store.SpfConfig
 import java.util.*
 
 /**
@@ -38,7 +38,7 @@ class AutoSkipAd(private val service: AccessibilityService) {
 
     private val autoClickBase = AutoClickBase()
 
-    private val blackList = arrayListOf("android", "com.android.systemui", "com.miui.home", "com.tencent.mobileqq", "com.tencent.mm", "com.omarea.vtools", "com.omarea.gesture", "com.android.settings")
+    private val blackList = arrayListOf("android", "com.android.systemui", "com.miui.home", "com.tencent.mobileqq", "com.tencent.mm", "com.wzmwayne.scene", "com.omarea.gesture", "com.android.settings")
 
     private fun preciseSkip(root: AccessibilityNodeInfo): Boolean {
         autoSkipConfigStore.getSkipViewId(lastActivity)?.run {

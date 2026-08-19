@@ -1,4 +1,4 @@
-package com.omarea.ui.charge
+package com.wzmwayne.scene.ui.charge
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,8 +7,8 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
-import com.omarea.store.ChargeSpeedStore
-import com.omarea.vtools.R
+import com.wzmwayne.scene.store.ChargeSpeedStore
+import com.wzmwayne.scene.R
 
 class ChargeCurveView : View {
     private lateinit var storage: ChargeSpeedStore

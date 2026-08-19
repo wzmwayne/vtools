@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.app.TimePickerDialog
@@ -12,18 +12,18 @@ import android.text.Spanned
 import android.text.style.AbsoluteSizeSpan
 import android.view.View
 import android.widget.*
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.library.device.BatteryCapacity
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
-import com.omarea.vtools.dialogs.DialogNumberInput
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.library.device.BatteryCapacity
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.dialogs.DialogNumberInput
 import kotlinx.android.synthetic.main.activity_battery.*
 import java.util.*
 

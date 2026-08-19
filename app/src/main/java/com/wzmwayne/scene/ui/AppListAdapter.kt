@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,9 +12,9 @@ import android.widget.BaseAdapter
 import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
-import com.omarea.library.basic.AppInfoLoader
-import com.omarea.model.AppInfo
-import com.omarea.vtools.R
+import com.wzmwayne.scene.library.basic.AppInfoLoader
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.*
 import java.util.ArrayList
 import java.util.HashMap

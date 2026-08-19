@@ -1,6 +1,6 @@
-package com.omarea.model;
+package com.wzmwayne.scene.model;
 
-import com.omarea.data.EventType;
+import com.wzmwayne.scene.data.EventType;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.omarea.common;
+package com.wzmwayne.scene.common;
 
 import org.junit.Test;
 

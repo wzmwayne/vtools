@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.Manifest
 import android.app.Activity
@@ -16,14 +16,14 @@ import android.widget.Button
 import android.widget.CompoundButton
 import androidx.core.app.ActivityCompat
 import androidx.core.content.PermissionChecker
-import com.omarea.Scene
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ThemeMode
-import com.omarea.permissions.Busybox
-import com.omarea.permissions.CheckRootStatus
-import com.omarea.permissions.WriteSettings
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ThemeMode
+import com.wzmwayne.scene.permissions.Busybox
+import com.wzmwayne.scene.permissions.CheckRootStatus
+import com.wzmwayne.scene.permissions.WriteSettings
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_start_splash.*
 import java.util.*
 

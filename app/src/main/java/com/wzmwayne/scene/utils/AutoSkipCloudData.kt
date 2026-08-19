@@ -1,8 +1,8 @@
-package com.omarea.utils
+package com.wzmwayne.scene.utils
 
 import android.content.Context
-import com.omarea.Scene
-import com.omarea.store.AutoSkipConfigStore
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.store.AutoSkipConfigStore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

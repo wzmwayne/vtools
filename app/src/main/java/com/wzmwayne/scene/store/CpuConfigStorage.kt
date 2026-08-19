@@ -1,10 +1,10 @@
-package com.omarea.store
+package com.wzmwayne.scene.store
 
 import android.content.Context
-import com.omarea.common.shared.ObjectStorage
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.library.shell.CpuFrequencyUtils
-import com.omarea.model.CpuStatus
+import com.wzmwayne.scene.common.shared.ObjectStorage
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.library.shell.CpuFrequencyUtils
+import com.wzmwayne.scene.model.CpuStatus
 import java.io.File
 
 /**

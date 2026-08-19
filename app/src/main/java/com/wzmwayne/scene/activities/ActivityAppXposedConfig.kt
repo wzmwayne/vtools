@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,16 +10,16 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatActivity
-import com.omarea.Scene
-import com.omarea.common.ui.OverScrollListView
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.model.AppInfo
-import com.omarea.model.SceneConfigInfo
-import com.omarea.store.SpfConfig
-import com.omarea.store.XposedExtension
-import com.omarea.ui.XposedAppsAdapter
-import com.omarea.utils.AppListHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.OverScrollListView
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.model.SceneConfigInfo
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.store.XposedExtension
+import com.wzmwayne.scene.ui.XposedAppsAdapter
+import com.wzmwayne.scene.utils.AppListHelper
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_app_xposed_config.*
 import java.util.*
 import kotlin.collections.ArrayList

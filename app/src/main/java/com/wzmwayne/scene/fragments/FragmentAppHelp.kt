@@ -1,12 +1,12 @@
-package com.omarea.vtools.fragments
+package com.wzmwayne.scene.fragments
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.omarea.vtools.R
-import com.omarea.vtools.activities.ActivityHiddenApps
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.activities.ActivityHiddenApps
 import kotlinx.android.synthetic.main.fragment_app_help.*
 
 class FragmentAppHelp : androidx.fragment.app.Fragment() {

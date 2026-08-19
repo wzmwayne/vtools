@@ -1,21 +1,21 @@
-package com.omarea.data.customer
+package com.wzmwayne.scene.data.customer
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.BatteryManager
 import android.util.Log
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellAsync
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.data.IEventReceiver
-import com.omarea.library.calculator.GetUpTime
-import com.omarea.library.device.BatteryCapacity
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.library.shell.PropsUtils
-import com.omarea.store.SpfConfig
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellAsync
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.library.calculator.GetUpTime
+import com.wzmwayne.scene.library.device.BatteryCapacity
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.library.shell.PropsUtils
+import com.wzmwayne.scene.store.SpfConfig
 import java.util.*
 
 class BatteryReceiver(private var service: Context, override val isAsync: Boolean = true) : IEventReceiver {

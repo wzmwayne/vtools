@@ -1,8 +1,8 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.content.Context
-import com.omarea.model.TriggerInfo
-import com.omarea.store.TriggerStorage
+import com.wzmwayne.scene.model.TriggerInfo
+import com.wzmwayne.scene.store.TriggerStorage
 
 class TriggerManager(private var context: Context) {
     private val triggerListConfig = context.getSharedPreferences("scene_trigger_list", Context.MODE_PRIVATE)

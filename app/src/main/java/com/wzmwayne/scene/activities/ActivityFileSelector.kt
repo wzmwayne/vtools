@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -7,10 +7,10 @@ import android.view.KeyEvent
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.ui.AdapterFileSelector
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.ui.AdapterFileSelector
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_file_selector.*
 import java.io.File
 

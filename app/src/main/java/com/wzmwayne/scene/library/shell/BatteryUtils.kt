@@ -1,12 +1,12 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.content.Context
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.KernelProrp
-import com.omarea.common.shell.RootFile
-import com.omarea.model.BatteryStatus
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KernelProrp
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.model.BatteryStatus
 
 /**
  * Created by Hello on 2017/11/01.

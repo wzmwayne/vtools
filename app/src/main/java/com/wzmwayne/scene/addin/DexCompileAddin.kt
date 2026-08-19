@@ -1,4 +1,4 @@
-package com.omarea.vtools.addin
+package com.wzmwayne.scene.addin
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -6,12 +6,12 @@ import android.net.Uri
 import android.os.Build
 import android.view.View
 import android.widget.Toast
-import com.omarea.common.ui.DialogHelper
-import com.omarea.library.shell.PropsUtils
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
-import com.omarea.vtools.activities.ActivityBase
-import com.omarea.vtools.services.CompileService
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.library.shell.PropsUtils
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.activities.ActivityBase
+import com.wzmwayne.scene.services.CompileService
 
 /**
  * Created by Hello on 2018/02/20.

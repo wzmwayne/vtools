@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 /**
  * 处理屏幕开关事件的Handler

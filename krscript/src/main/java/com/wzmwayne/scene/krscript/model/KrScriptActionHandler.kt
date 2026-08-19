@@ -1,8 +1,8 @@
-package com.omarea.krscript.model
+package com.wzmwayne.scene.krscript.model
 
 import android.content.Intent
 import android.view.View
-import com.omarea.krscript.ui.ParamsFileChooserRender
+import com.wzmwayne.scene.krscript.ui.ParamsFileChooserRender
 
 interface KrScriptActionHandler {
     fun openFileChooser(fileSelectedInterface: ParamsFileChooserRender.FileSelectedInterface): Boolean

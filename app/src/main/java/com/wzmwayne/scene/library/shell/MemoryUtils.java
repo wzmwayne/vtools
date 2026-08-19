@@ -1,6 +1,6 @@
-package com.omarea.library.shell;
+package com.wzmwayne.scene.library.shell;
 
-import com.omarea.common.shell.KernelProrp;
+import com.wzmwayne.scene.common.shell.KernelProrp;
 
 public class MemoryUtils {
     public static class MemoryInfo {

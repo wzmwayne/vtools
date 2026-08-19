@@ -1,4 +1,4 @@
-package com.omarea.common;
+package com.wzmwayne.scene.common;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.omarea.common.test", appContext.getPackageName());
+        assertEquals("com.wzmwayne.scene.common.test", appContext.getPackageName());
     }
 }

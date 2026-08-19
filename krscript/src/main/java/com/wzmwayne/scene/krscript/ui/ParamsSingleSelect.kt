@@ -1,4 +1,4 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,10 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
-import com.omarea.common.model.SelectItem
-import com.omarea.common.ui.DialogItemChooser
-import com.omarea.krscript.R
-import com.omarea.krscript.model.ActionParamInfo
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.common.ui.DialogItemChooser
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.model.ActionParamInfo
 
 class ParamsSingleSelect(
         private var actionParamInfo: ActionParamInfo,

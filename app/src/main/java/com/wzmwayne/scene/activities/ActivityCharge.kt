@@ -1,13 +1,13 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.os.BatteryManager
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.omarea.data.GlobalStatus
-import com.omarea.store.ChargeSpeedStore
-import com.omarea.vtools.R
-import com.omarea.vtools.dialogs.DialogElectricityUnit
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.store.ChargeSpeedStore
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.dialogs.DialogElectricityUnit
 import kotlinx.android.synthetic.main.activity_charge.*
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.omarea.common.shared
+package com.wzmwayne.scene.common.shared
 
 import android.content.Context
 import android.widget.Toast

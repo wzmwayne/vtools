@@ -1,4 +1,4 @@
-package com.omarea.xposed;
+package com.wzmwayne.scene.xposed;
 
 import android.content.Context;
 import android.content.res.Configuration;

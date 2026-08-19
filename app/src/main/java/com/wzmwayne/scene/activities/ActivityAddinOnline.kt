@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -16,16 +16,16 @@ import android.view.View
 import android.view.WindowManager
 import android.webkit.*
 import android.widget.Toast
-import com.omarea.common.shared.FilePathResolver
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.krscript.WebViewInjector
-import com.omarea.krscript.ui.ParamsFileChooserRender
-import com.omarea.library.calculator.Flags
-import com.omarea.scene_mode.CpuConfigInstaller
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FilePathResolver
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.krscript.WebViewInjector
+import com.wzmwayne.scene.krscript.ui.ParamsFileChooserRender
+import com.wzmwayne.scene.library.calculator.Flags
+import com.wzmwayne.scene.scene_mode.CpuConfigInstaller
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_addin_online.*
 import java.io.File
 import java.io.FileInputStream

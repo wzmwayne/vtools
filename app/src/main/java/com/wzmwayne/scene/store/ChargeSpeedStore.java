@@ -1,12 +1,12 @@
-package com.omarea.store;
+package com.wzmwayne.scene.store;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.omarea.model.ChargeSpeedHistory;
-import com.omarea.model.ChargeTimeHistory;
+import com.wzmwayne.scene.model.ChargeSpeedHistory;
+import com.wzmwayne.scene.model.ChargeTimeHistory;
 
 import java.util.ArrayList;
 

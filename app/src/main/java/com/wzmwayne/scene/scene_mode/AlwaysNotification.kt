@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.app.*
 import android.content.Context
@@ -10,15 +10,15 @@ import android.os.Build
 import android.os.SystemClock
 import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
-import com.omarea.Scene
-import com.omarea.data.EventType
-import com.omarea.data.GlobalStatus
-import com.omarea.data.IEventReceiver
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.model.BatteryStatus
-import com.omarea.store.BatteryHistoryStore
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.model.BatteryStatus
+import com.wzmwayne.scene.store.BatteryHistoryStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 
 /**
  * 常驻通知

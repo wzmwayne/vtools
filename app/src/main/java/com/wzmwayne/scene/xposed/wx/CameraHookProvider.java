@@ -1,4 +1,4 @@
-package com.omarea.xposed.wx;
+package com.wzmwayne.scene.xposed.wx;
 
 import android.hardware.Camera;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package com.omarea.ui;
+package com.wzmwayne.scene.ui;
 
 public class TipsButton {
 }

@@ -1,14 +1,14 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.app.Activity
 import android.view.View
 import android.widget.CompoundButton
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.common.ui.DialogHelper
-import com.omarea.utils.AccessibleServiceHelper
-import com.omarea.vtools.R
-import com.omarea.vtools.popup.*
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.utils.AccessibleServiceHelper
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.popup.*
 
 class DialogMonitor(var context: Activity) {
     fun show() {

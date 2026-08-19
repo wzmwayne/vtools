@@ -1,12 +1,12 @@
-package com.omarea.krscript.executor;
+package com.wzmwayne.scene.krscript.executor;
 
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.omarea.krscript.model.RunnableNode;
-import com.omarea.krscript.model.ShellHandlerBase;
+import com.wzmwayne.scene.krscript.model.RunnableNode;
+import com.wzmwayne.scene.krscript.model.ShellHandlerBase;
 
 import java.io.DataOutputStream;
 import java.io.OutputStream;

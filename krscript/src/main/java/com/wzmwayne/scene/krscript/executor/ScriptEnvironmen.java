@@ -1,4 +1,4 @@
-package com.omarea.krscript.executor;
+package com.wzmwayne.scene.krscript.executor;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,12 +6,12 @@ import android.content.pm.PackageInfo;
 import android.os.Build;
 import android.os.Environment;
 
-import com.omarea.common.shared.FileWrite;
-import com.omarea.common.shared.MagiskExtend;
-import com.omarea.common.shell.KeepShell;
-import com.omarea.common.shell.KeepShellPublic;
-import com.omarea.krscript.FileOwner;
-import com.omarea.krscript.model.NodeInfoBase;
+import com.wzmwayne.scene.common.shared.FileWrite;
+import com.wzmwayne.scene.common.shared.MagiskExtend;
+import com.wzmwayne.scene.common.shell.KeepShell;
+import com.wzmwayne.scene.common.shell.KeepShellPublic;
+import com.wzmwayne.scene.krscript.FileOwner;
+import com.wzmwayne.scene.krscript.model.NodeInfoBase;
 
 import java.io.DataOutputStream;
 import java.io.File;

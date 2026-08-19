@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -13,11 +13,11 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.omarea.common.ui.OverScrollListView
-import com.omarea.library.basic.AppInfoLoader
-import com.omarea.model.AppInfo
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.OverScrollListView
+import com.wzmwayne.scene.library.basic.AppInfoLoader
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

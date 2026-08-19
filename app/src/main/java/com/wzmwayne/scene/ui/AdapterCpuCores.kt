@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
-import com.omarea.model.CpuCoreInfo
-import com.omarea.vtools.R
+import com.wzmwayne.scene.model.CpuCoreInfo
+import com.wzmwayne.scene.R
 import java.util.*
 
 class AdapterCpuCores(private val context: Context, private val list: ArrayList<CpuCoreInfo>?) : BaseAdapter() {

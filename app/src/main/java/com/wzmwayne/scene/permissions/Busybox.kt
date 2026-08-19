@@ -1,11 +1,11 @@
-package com.omarea.permissions
+package com.wzmwayne.scene.permissions
 
 import android.content.Context
 import android.os.Build
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.R
 import java.io.File
 import java.util.*
 

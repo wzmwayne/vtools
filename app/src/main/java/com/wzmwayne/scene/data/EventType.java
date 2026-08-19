@@ -1,4 +1,4 @@
-package com.omarea.data;
+package com.wzmwayne.scene.data;
 
 public enum EventType {
     POWER_CONNECTED,            // 充电器连接

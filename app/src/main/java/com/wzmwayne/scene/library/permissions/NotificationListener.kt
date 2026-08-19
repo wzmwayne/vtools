@@ -1,4 +1,4 @@
-package com.omarea.library.permissions
+package com.wzmwayne.scene.library.permissions
 
 import android.content.Context
 import android.content.Intent

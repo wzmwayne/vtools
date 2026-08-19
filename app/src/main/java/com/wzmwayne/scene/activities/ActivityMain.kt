@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,24 +15,24 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import com.omarea.Scene
-import com.omarea.common.shared.MagiskExtend
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.KernelProrp
-import com.omarea.common.shell.RootFile
-import com.omarea.common.ui.DialogHelper
-import com.omarea.permissions.CheckRootStatus
-import com.omarea.store.SpfConfig
-import com.omarea.ui.TabIconHelper2
-import com.omarea.utils.ElectricityUnit
-import com.omarea.utils.Update
-import com.omarea.vtools.R
-import com.omarea.vtools.dialogs.DialogMonitor
-import com.omarea.vtools.dialogs.DialogPower
-import com.omarea.vtools.fragments.FragmentDonate
-import com.omarea.vtools.fragments.FragmentHome
-import com.omarea.vtools.fragments.FragmentNav
-import com.omarea.vtools.fragments.FragmentNotRoot
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.MagiskExtend
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KernelProrp
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.permissions.CheckRootStatus
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.ui.TabIconHelper2
+import com.wzmwayne.scene.utils.ElectricityUnit
+import com.wzmwayne.scene.utils.Update
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.dialogs.DialogMonitor
+import com.wzmwayne.scene.dialogs.DialogPower
+
+import com.wzmwayne.scene.fragments.FragmentHome
+import com.wzmwayne.scene.fragments.FragmentNav
+import com.wzmwayne.scene.fragments.FragmentNotRoot
 import kotlinx.android.synthetic.main.activity_main.*
 
 class ActivityMain : ActivityBase() {
@@ -144,7 +144,6 @@ class ActivityMain : ActivityBase() {
         } else {
             FragmentNotRoot()
         }))
-        tabIconHelper2.newTabSpec(getString(R.string.app_donate), getDrawable(R.drawable.app_donate)!!, FragmentDonate())
         tab_content.adapter = tabIconHelper2.adapter
         tab_list.getTabAt(1)?.select() // 默认选中第二页
 

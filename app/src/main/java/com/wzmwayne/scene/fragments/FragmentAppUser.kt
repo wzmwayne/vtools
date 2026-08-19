@@ -1,4 +1,4 @@
-package com.omarea.vtools.fragments
+package com.wzmwayne.scene.fragments
 
 import android.app.Activity
 import android.os.Bundle
@@ -11,15 +11,15 @@ import android.widget.AdapterView.OnItemClickListener
 import android.widget.CheckBox
 import android.widget.HeaderViewListAdapter
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.common.ui.OverScrollListView
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.model.AppInfo
-import com.omarea.ui.AppListAdapter
-import com.omarea.utils.AppListHelper
-import com.omarea.vtools.R
-import com.omarea.vtools.dialogs.DialogAppOptions
-import com.omarea.vtools.dialogs.DialogSingleAppOptions
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.OverScrollListView
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.ui.AppListAdapter
+import com.wzmwayne.scene.utils.AppListHelper
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.dialogs.DialogAppOptions
+import com.wzmwayne.scene.dialogs.DialogSingleAppOptions
 import kotlinx.android.synthetic.main.fragment_app_list.*
 import java.lang.ref.WeakReference
 

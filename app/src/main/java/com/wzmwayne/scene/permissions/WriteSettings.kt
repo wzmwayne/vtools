@@ -1,4 +1,4 @@
-package com.omarea.permissions
+package com.wzmwayne.scene.permissions
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.os.Build
 import android.provider.Settings
 import android.widget.Toast
 import androidx.core.content.PermissionChecker
-import com.omarea.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KeepShellPublic
 
 
 /**

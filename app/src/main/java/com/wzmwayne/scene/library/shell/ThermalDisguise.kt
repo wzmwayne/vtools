@@ -1,8 +1,8 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.os.Build
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.RootFile
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.RootFile
 import java.util.*
 
 class ThermalDisguise {

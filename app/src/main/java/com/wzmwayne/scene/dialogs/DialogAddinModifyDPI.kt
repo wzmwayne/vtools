@@ -1,4 +1,4 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,12 +11,12 @@ import android.util.DisplayMetrics
 import android.view.Display
 import android.view.LayoutInflater
 import android.widget.*
-import com.omarea.common.shared.MagiskExtend
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.store.SpfConfig
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.MagiskExtend
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
 import java.util.*
 
 /**

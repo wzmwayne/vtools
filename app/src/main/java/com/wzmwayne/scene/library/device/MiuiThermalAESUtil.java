@@ -1,4 +1,4 @@
-package com.omarea.library.device;
+package com.wzmwayne.scene.library.device;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

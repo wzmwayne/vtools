@@ -1,4 +1,4 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,13 +8,13 @@ import android.os.Build
 import android.os.PowerManager
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
-import com.omarea.common.shell.KeepShell
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.library.shell.FstrimUtils
-import com.omarea.library.shell.ZenModeUtils
-import com.omarea.model.CustomTaskAction
-import com.omarea.model.TaskAction
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.library.shell.FstrimUtils
+import com.wzmwayne.scene.library.shell.ZenModeUtils
+import com.wzmwayne.scene.model.CustomTaskAction
+import com.wzmwayne.scene.model.TaskAction
+import com.wzmwayne.scene.R
 import java.util.*
 
 class TaskActionsExecutor(

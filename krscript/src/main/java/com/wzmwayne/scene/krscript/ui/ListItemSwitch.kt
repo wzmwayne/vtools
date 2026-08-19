@@ -1,10 +1,10 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.content.Context
 import android.widget.Switch
-import com.omarea.krscript.R
-import com.omarea.krscript.executor.ScriptEnvironmen
-import com.omarea.krscript.model.SwitchNode
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.executor.ScriptEnvironmen
+import com.wzmwayne.scene.krscript.model.SwitchNode
 
 class ListItemSwitch(private val context: Context,
                      private val config: SwitchNode) : ListItemClickable(context, R.layout.kr_switch_list_item, config) {

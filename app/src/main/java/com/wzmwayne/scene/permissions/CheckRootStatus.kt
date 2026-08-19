@@ -1,4 +1,4 @@
-package com.omarea.permissions
+package com.wzmwayne.scene.permissions
 
 import android.Manifest
 import android.content.Context
@@ -10,11 +10,11 @@ import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import androidx.core.content.PermissionChecker
-import com.omarea.Scene
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.ui.DialogHelper
-import com.omarea.utils.CommonCmds
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.utils.CommonCmds
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

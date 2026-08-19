@@ -1,12 +1,12 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.app.Activity
 import android.view.View
 import android.widget.CompoundButton
 import android.widget.Toast
-import com.omarea.common.ui.DialogHelper
-import com.omarea.store.XposedExtension
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.store.XposedExtension
+import com.wzmwayne.scene.R
 
 class DialogXposedGlobalConfig(var context: Activity) {
 

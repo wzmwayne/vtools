@@ -1,6 +1,6 @@
-package com.omarea.krscript.executor;
+package com.wzmwayne.scene.krscript.executor;
 
-import com.omarea.krscript.model.ShellHandlerBase;
+import com.wzmwayne.scene.krscript.model.ShellHandlerBase;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

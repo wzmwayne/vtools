@@ -1,4 +1,4 @@
-package com.omarea.vtools
+package com.wzmwayne.scene
 
 class SceneJNI {
     external fun getKernelPropLong(path: String): Long

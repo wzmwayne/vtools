@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -14,9 +14,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.omarea.model.AppInfo
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.vtools.R
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.R
 import java.io.File
 import java.util.*
 import kotlin.collections.HashMap

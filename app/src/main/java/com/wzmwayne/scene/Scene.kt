@@ -1,4 +1,4 @@
-package com.omarea
+package com.wzmwayne.scene
 
 import android.app.Application
 import android.app.UiModeManager
@@ -8,20 +8,20 @@ import android.content.res.Configuration
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.ShellExecutor
-import com.omarea.data.EventBus
-import com.omarea.data.customer.ChargeCurve
-import com.omarea.data.customer.ScreenOffCleanup
-import com.omarea.data.publisher.BatteryState
-import com.omarea.data.publisher.ScreenState
-import com.omarea.permissions.Busybox
-import com.omarea.permissions.CheckRootStatus
-import com.omarea.scene_mode.TimingTaskManager
-import com.omarea.scene_mode.TriggerIEventMonitor
-import com.omarea.store.SpfConfig
-import com.omarea.utils.CrashHandler
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.ShellExecutor
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.customer.ChargeCurve
+import com.wzmwayne.scene.data.customer.ScreenOffCleanup
+import com.wzmwayne.scene.data.publisher.BatteryState
+import com.wzmwayne.scene.data.publisher.ScreenState
+import com.wzmwayne.scene.permissions.Busybox
+import com.wzmwayne.scene.permissions.CheckRootStatus
+import com.wzmwayne.scene.scene_mode.TimingTaskManager
+import com.wzmwayne.scene.scene_mode.TriggerIEventMonitor
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.CrashHandler
+import com.wzmwayne.scene.R
 
 class Scene : Application() {
     companion object {

@@ -1,9 +1,9 @@
-package com.omarea.utils
+package com.wzmwayne.scene.utils
 
 import android.content.Context
-import com.omarea.library.basic.AccessibleServiceState
-import com.omarea.library.shell.AccessibilityServiceUtils
-import com.omarea.vtools.AccessibilityScenceMode
+import com.wzmwayne.scene.library.basic.AccessibleServiceState
+import com.wzmwayne.scene.library.shell.AccessibilityServiceUtils
+import com.wzmwayne.scene.AccessibilityScenceMode
 
 /**
  * Created by Hello on 2018/06/03.

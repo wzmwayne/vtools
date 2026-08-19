@@ -1,4 +1,4 @@
-package com.omarea.xposed;
+package com.wzmwayne.scene.xposed;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -11,8 +11,8 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.Display;
 
-import com.omarea.store.XposedExtension;
-import com.omarea.xposed.wx.WeChatScanHook;
+import com.wzmwayne.scene.store.XposedExtension;
+import com.wzmwayne.scene.xposed.wx.WeChatScanHook;
 
 import org.json.JSONObject;
 
@@ -131,7 +131,7 @@ public class XposedInterface implements IXposedHookLoadPackage, IXposedHookZygot
         // 专属选项
         switch (packageName) {
             // 用于检查xposed是否激活
-            case "com.omarea.vtools":
+            case "com.wzmwayne.scene":
             case "com.omarea.vboot":
                 new ActiveCheck().isActive(loadPackageParam);
                 break;

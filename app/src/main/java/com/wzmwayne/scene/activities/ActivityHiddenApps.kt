@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.content.pm.ApplicationInfo
@@ -12,14 +12,14 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.AdapterView
 import android.widget.CheckBox
-import com.omarea.common.shell.KeepShell
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.krscript.FileOwner
-import com.omarea.library.basic.UninstalledApp
-import com.omarea.model.AppInfo
-import com.omarea.ui.AppListAdapter
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.krscript.FileOwner
+import com.wzmwayne.scene.library.basic.UninstalledApp
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.ui.AppListAdapter
+import com.wzmwayne.scene.R
 import kotlinx.android.synthetic.main.activity_hidden_apps.*
 import java.lang.ref.WeakReference
 

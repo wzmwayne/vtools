@@ -1,4 +1,4 @@
-package com.omarea.common.ui;
+package com.wzmwayne.scene.common.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

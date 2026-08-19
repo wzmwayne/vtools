@@ -1,6 +1,6 @@
-package com.omarea.library.shell;
+package com.wzmwayne.scene.library.shell;
 
-import com.omarea.common.shell.KeepShell;
+import com.wzmwayne.scene.common.shell.KeepShell;
 
 public class GAppsUtilis {
     public void enable(KeepShell keepShell) {

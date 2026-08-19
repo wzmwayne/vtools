@@ -1,4 +1,4 @@
-package com.omarea.vtools
+package com.wzmwayne.scene
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -6,9 +6,9 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.database.Cursor
 import android.net.Uri
-import com.omarea.Scene
-import com.omarea.scene_mode.SceneMode
-import com.omarea.store.SpfConfig
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.scene_mode.SceneMode
+import com.wzmwayne.scene.store.SpfConfig
 
 class SceneFreezeProvider : ContentProvider() {
     override fun delete(uri: Uri, selection: String?, selectionArgs: Array<String>?): Int {

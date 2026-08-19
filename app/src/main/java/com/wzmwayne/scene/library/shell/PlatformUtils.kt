@@ -1,4 +1,4 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 /**
  * 读取处理器平台

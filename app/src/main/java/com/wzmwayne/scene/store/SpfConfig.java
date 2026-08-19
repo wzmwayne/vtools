@@ -1,4 +1,4 @@
-package com.omarea.store;
+package com.wzmwayne.scene.store;
 
 /**
  * 公共参数

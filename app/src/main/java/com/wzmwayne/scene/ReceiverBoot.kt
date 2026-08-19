@@ -1,9 +1,9 @@
-package com.omarea.vtools
+package com.wzmwayne.scene
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.omarea.vtools.services.BootService
+import com.wzmwayne.scene.services.BootService
 
 
 class ReceiverBoot : BroadcastReceiver() {

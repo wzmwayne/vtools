@@ -1,13 +1,13 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.content.Context
 import android.util.Log
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShell
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.KernelProrp
-import com.omarea.common.shell.RootFile
-import com.omarea.model.ZramWriteBackStat
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShell
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KernelProrp
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.model.ZramWriteBackStat
 import java.io.File
 
 /**

@@ -1,4 +1,4 @@
-package com.omarea.xposed;
+package com.wzmwayne.scene.xposed;
 
 import android.app.Activity;
 import android.app.ActivityManager;

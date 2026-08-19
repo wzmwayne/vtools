@@ -29,14 +29,14 @@
 #-keepclassmembers public class com.android.vending.licensing.ILicensingService
 #-keepclassmembers class android.support.** {*;}
 
--keep class com.omarea.xposed.XposedInterface{*;}
--keep class com.omarea.xposed.XposedCheck{*;}
--keep class com.omarea.data.customer.ServiceBattery{*;}
--keep class com.omarea.vtools.activities.ActivityFreezeApps{*;}
--keep class com.omarea.model.**{*;}
--keep class com.omarea.krscript.model.**{*;}
+-keep class com.wzmwayne.scene.xposed.XposedInterface{*;}
+-keep class com.wzmwayne.scene.xposed.XposedCheck{*;}
+-keep class com.wzmwayne.scene.data.customer.ServiceBattery{*;}
+-keep class com.wzmwayne.scene.activities.ActivityFreezeApps{*;}
+-keep class com.wzmwayne.scene.model.**{*;}
+-keep class com.wzmwayne.scene.krscript.model.**{*;}
 
--keepclassmembers class com.omarea.xposed.XposedInterface{*;}
--keepclassmembers class com.omarea.xposed.XposedCheck{*;}
--keepclassmembers class com.omarea.data.customer.ServiceBattery{*;}
--keepclassmembers class com.omarea.vtools.activities.ActivityFreezeApps{*;}
+-keepclassmembers class com.wzmwayne.scene.xposed.XposedInterface{*;}
+-keepclassmembers class com.wzmwayne.scene.xposed.XposedCheck{*;}
+-keepclassmembers class com.wzmwayne.scene.data.customer.ServiceBattery{*;}
+-keepclassmembers class com.wzmwayne.scene.activities.ActivityFreezeApps{*;}

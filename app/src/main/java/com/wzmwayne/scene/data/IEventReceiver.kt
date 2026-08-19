@@ -1,4 +1,4 @@
-package com.omarea.data
+package com.wzmwayne.scene.data
 
 interface IEventReceiver {
     fun eventFilter(eventType: EventType): Boolean

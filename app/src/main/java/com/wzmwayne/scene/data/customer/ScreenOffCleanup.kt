@@ -1,10 +1,10 @@
-package com.omarea.data.customer
+package com.wzmwayne.scene.data.customer
 
 import android.content.Context
-import com.omarea.Scene
-import com.omarea.data.EventType
-import com.omarea.data.IEventReceiver
-import com.omarea.vtools.popup.*
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.data.IEventReceiver
+import com.wzmwayne.scene.popup.*
 
 class ScreenOffCleanup(private val context: Context) : IEventReceiver {
     override fun eventFilter(eventType: EventType): Boolean {

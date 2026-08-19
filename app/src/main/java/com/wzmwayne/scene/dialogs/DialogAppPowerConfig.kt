@@ -1,10 +1,10 @@
-package com.omarea.vtools.dialogs
+package com.wzmwayne.scene.dialogs
 
 import android.app.Activity
 import android.view.View
-import com.omarea.common.ui.DialogHelper
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.R
 
 class DialogAppPowerConfig(var context: Activity, val current: String?, val iResultCallback: IResultCallback) {
     interface IResultCallback {

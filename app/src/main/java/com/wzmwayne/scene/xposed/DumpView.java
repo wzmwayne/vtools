@@ -1,4 +1,4 @@
-package com.omarea.xposed;
+package com.wzmwayne.scene.xposed;
 
 import android.view.View;
 import android.view.ViewGroup;

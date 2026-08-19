@@ -1,4 +1,4 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -13,19 +13,19 @@ import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.common.model.SelectItem
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.DialogItemChooser
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.common.ui.ThemeMode
-import com.omarea.krscript.BgTaskThread
-import com.omarea.krscript.HiddenTaskThread
-import com.omarea.krscript.R
-import com.omarea.krscript.TryOpenActivity
-import com.omarea.krscript.config.IconPathAnalysis
-import com.omarea.krscript.executor.ScriptEnvironmen
-import com.omarea.krscript.model.*
-import com.omarea.krscript.shortcut.ActionShortcutManager
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.DialogItemChooser
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.common.ui.ThemeMode
+import com.wzmwayne.scene.krscript.BgTaskThread
+import com.wzmwayne.scene.krscript.HiddenTaskThread
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.TryOpenActivity
+import com.wzmwayne.scene.krscript.config.IconPathAnalysis
+import com.wzmwayne.scene.krscript.executor.ScriptEnvironmen
+import com.wzmwayne.scene.krscript.model.*
+import com.wzmwayne.scene.krscript.shortcut.ActionShortcutManager
 
 class ActionListFragment : androidx.fragment.app.Fragment(), PageLayoutRender.OnItemClickListener {
     companion object {

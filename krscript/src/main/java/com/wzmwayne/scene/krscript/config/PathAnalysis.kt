@@ -1,10 +1,10 @@
-package com.omarea.krscript.config
+package com.wzmwayne.scene.krscript.config
 
 import android.content.Context
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.RootFile
-import com.omarea.krscript.FileOwner
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.krscript.FileOwner
 import java.io.File
 import java.io.InputStream
 

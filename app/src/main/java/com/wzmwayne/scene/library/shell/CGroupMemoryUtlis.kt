@@ -1,12 +1,12 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
 import android.content.Context
 import android.util.Log
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shared.RawText
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.common.shell.RootFile
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shared.RawText
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.RootFile
+import com.wzmwayne.scene.R
 import java.nio.charset.Charset
 
 public class CGroupMemoryUtlis(private val context: Context) {

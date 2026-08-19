@@ -1,4 +1,4 @@
-package com.omarea.xposed;
+package com.wzmwayne.scene.xposed;
 
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;

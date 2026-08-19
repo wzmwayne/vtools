@@ -1,8 +1,8 @@
-package com.omarea.vtools.addin
+package com.wzmwayne.scene.addin
 
-import com.omarea.common.model.SelectItem
-import com.omarea.common.ui.DialogItemChooser
-import com.omarea.vtools.activities.ActivityBase
+import com.wzmwayne.scene.common.model.SelectItem
+import com.wzmwayne.scene.common.ui.DialogItemChooser
+import com.wzmwayne.scene.activities.ActivityBase
 
 /**
  * Created by Hello on 2017/11/01.

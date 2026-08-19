@@ -1,10 +1,10 @@
-package com.omarea.library.shell;
+package com.wzmwayne.scene.library.shell;
 
-import com.omarea.common.shell.KeepShellPublic;
-import com.omarea.common.shell.KernelProrp;
-import com.omarea.model.CpuClusterStatus;
-import com.omarea.model.CpuStatus;
-import com.omarea.vtools.SceneJNI;
+import com.wzmwayne.scene.common.shell.KeepShellPublic;
+import com.wzmwayne.scene.common.shell.KernelProrp;
+import com.wzmwayne.scene.model.CpuClusterStatus;
+import com.wzmwayne.scene.model.CpuStatus;
+import com.wzmwayne.scene.SceneJNI;
 
 import java.io.File;
 import java.util.ArrayList;

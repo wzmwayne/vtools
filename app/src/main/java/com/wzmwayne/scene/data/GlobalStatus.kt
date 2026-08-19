@@ -1,8 +1,8 @@
-package com.omarea.data
+package com.wzmwayne.scene.data
 
 import android.os.BatteryManager
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.permissions.CheckRootStatus.Companion.lastCheckResult
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.permissions.CheckRootStatus.Companion.lastCheckResult
 
 object GlobalStatus {
     var temperatureCurrent = -1f

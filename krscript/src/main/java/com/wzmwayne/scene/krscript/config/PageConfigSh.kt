@@ -1,13 +1,13 @@
-package com.omarea.krscript.config
+package com.wzmwayne.scene.krscript.config
 
 import android.app.Activity
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import com.omarea.krscript.R
-import com.omarea.krscript.executor.ScriptEnvironmen
-import com.omarea.krscript.model.NodeInfoBase
-import com.omarea.krscript.model.PageNode
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.executor.ScriptEnvironmen
+import com.wzmwayne.scene.krscript.model.NodeInfoBase
+import com.wzmwayne.scene.krscript.model.PageNode
 import java.io.ByteArrayInputStream
 
 class PageConfigSh(private var activity: Activity, private var pageConfigSh: String, private var parentConfig: PageNode?) {

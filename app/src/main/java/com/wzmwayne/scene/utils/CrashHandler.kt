@@ -1,11 +1,11 @@
-package com.omarea.utils
+package com.wzmwayne.scene.utils
 
 import android.content.Context
 import android.os.Environment
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.scene_mode.AlwaysNotification
-import com.omarea.shell_utils.AppErrorLogcatUtils
-import com.omarea.store.SpfConfig
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.scene_mode.AlwaysNotification
+import com.wzmwayne.scene.shell_utils.AppErrorLogcatUtils
+import com.wzmwayne.scene.store.SpfConfig
 import java.io.File
 import java.io.FileOutputStream
 import java.io.PrintWriter

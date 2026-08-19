@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.accessibilityservice.AccessibilityService
 import android.content.Context
@@ -11,9 +11,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
 import android.widget.TextView
-import com.omarea.data.GlobalStatus
-import com.omarea.library.shell.ProcessUtils2
-import com.omarea.vtools.R
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.library.shell.ProcessUtils2
+import com.wzmwayne.scene.R
 import java.util.*
 
 class FloatMonitorThreads(private val mContext: Context) {

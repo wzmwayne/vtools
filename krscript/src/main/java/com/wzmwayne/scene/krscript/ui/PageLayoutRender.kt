@@ -1,12 +1,12 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import android.widget.Toast
-import com.omarea.krscript.R
-import com.omarea.krscript.model.*
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.model.*
 
 class PageLayoutRender(private val mContext: Context,
                        private val itemConfigList: ArrayList<NodeInfoBase>,

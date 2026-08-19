@@ -1,4 +1,4 @@
-package com.omarea.common.ui;
+package com.wzmwayne.scene.common.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;

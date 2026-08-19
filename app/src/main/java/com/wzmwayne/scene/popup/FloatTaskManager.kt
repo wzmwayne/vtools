@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,9 +12,9 @@ import android.widget.ImageButton
 import android.widget.ListView
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.library.shell.ProcessUtils2
-import com.omarea.ui.FloatProcessAdapter
-import com.omarea.vtools.R
+import com.wzmwayne.scene.library.shell.ProcessUtils2
+import com.wzmwayne.scene.ui.FloatProcessAdapter
+import com.wzmwayne.scene.R
 import java.util.*
 
 class FloatTaskManager(private val context: Context) {

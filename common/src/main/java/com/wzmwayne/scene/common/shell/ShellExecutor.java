@@ -1,4 +1,4 @@
-package com.omarea.common.shell;
+package com.wzmwayne.scene.common.shell;
 
 import java.io.IOException;
 import java.io.InputStream;

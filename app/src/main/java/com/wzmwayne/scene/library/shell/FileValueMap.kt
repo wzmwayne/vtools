@@ -1,6 +1,6 @@
-package com.omarea.library.shell
+package com.wzmwayne.scene.library.shell
 
-import com.omarea.common.shell.KeepShellPublic
+import com.wzmwayne.scene.common.shell.KeepShellPublic
 
 class FileValueMap {
     fun mapFileValue(dir: String): HashMap<String, String> {

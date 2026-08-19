@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,10 +6,10 @@ import android.util.LruCache
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.omarea.common.ui.OverScrollGridView
-import com.omarea.library.basic.AppInfoLoader
-import com.omarea.model.AppInfo
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.ui.OverScrollGridView
+import com.wzmwayne.scene.library.basic.AppInfoLoader
+import com.wzmwayne.scene.model.AppInfo
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

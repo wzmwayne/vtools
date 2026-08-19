@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -13,16 +13,16 @@ import android.view.View
 import android.view.WindowManager
 import android.webkit.*
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.library.basic.AppInfoLoader
-import com.omarea.library.calculator.Flags
-import com.omarea.library.shell.PlatformUtils
-import com.omarea.store.FpsWatchStore
-import com.omarea.utils.AccessibleServiceHelper
-import com.omarea.vtools.R
-import com.omarea.vtools.popup.FloatFpsWatch
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.library.basic.AppInfoLoader
+import com.wzmwayne.scene.library.calculator.Flags
+import com.wzmwayne.scene.library.shell.PlatformUtils
+import com.wzmwayne.scene.store.FpsWatchStore
+import com.wzmwayne.scene.utils.AccessibleServiceHelper
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.popup.FloatFpsWatch
 import kotlinx.android.synthetic.main.activity_addin_online.*
 import org.json.JSONArray
 import org.json.JSONObject

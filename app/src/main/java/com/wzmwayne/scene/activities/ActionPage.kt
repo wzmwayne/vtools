@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.Manifest
 import android.app.Activity
@@ -14,20 +14,20 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import com.omarea.common.shared.FilePathResolver
-import com.omarea.common.ui.ProgressBarDialog
-import com.omarea.krscript.TryOpenActivity
-import com.omarea.krscript.config.IconPathAnalysis
-import com.omarea.krscript.config.PageConfigReader
-import com.omarea.krscript.config.PageConfigSh
-import com.omarea.krscript.executor.ScriptEnvironmen
-import com.omarea.krscript.model.*
-import com.omarea.krscript.shortcut.ActionShortcutManager
-import com.omarea.krscript.ui.ActionListFragment
-import com.omarea.krscript.ui.DialogLogFragment
-import com.omarea.krscript.ui.PageMenuLoader
-import com.omarea.krscript.ui.ParamsFileChooserRender
-import com.omarea.vtools.R
+import com.wzmwayne.scene.common.shared.FilePathResolver
+import com.wzmwayne.scene.common.ui.ProgressBarDialog
+import com.wzmwayne.scene.krscript.TryOpenActivity
+import com.wzmwayne.scene.krscript.config.IconPathAnalysis
+import com.wzmwayne.scene.krscript.config.PageConfigReader
+import com.wzmwayne.scene.krscript.config.PageConfigSh
+import com.wzmwayne.scene.krscript.executor.ScriptEnvironmen
+import com.wzmwayne.scene.krscript.model.*
+import com.wzmwayne.scene.krscript.shortcut.ActionShortcutManager
+import com.wzmwayne.scene.krscript.ui.ActionListFragment
+import com.wzmwayne.scene.krscript.ui.DialogLogFragment
+import com.wzmwayne.scene.krscript.ui.PageMenuLoader
+import com.wzmwayne.scene.krscript.ui.ParamsFileChooserRender
+import com.wzmwayne.scene.R
 import com.projectkr.shell.OpenPageHelper
 import kotlinx.android.synthetic.main.activity_action_page.*
 

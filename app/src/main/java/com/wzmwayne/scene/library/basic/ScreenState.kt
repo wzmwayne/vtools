@@ -1,4 +1,4 @@
-package com.omarea.library.basic
+package com.wzmwayne.scene.library.basic
 
 import android.app.KeyguardManager
 import android.content.Context

@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.annotation.SuppressLint
 import android.app.ActivityManager
@@ -24,13 +24,13 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.data.GlobalStatus
-import com.omarea.library.shell.*
-import com.omarea.store.SpfConfig
-import com.omarea.ui.FloatMonitorBatteryView
-import com.omarea.ui.FloatMonitorChartView
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.library.shell.*
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.ui.FloatMonitorBatteryView
+import com.wzmwayne.scene.ui.FloatMonitorChartView
+import com.wzmwayne.scene.R
 import java.util.*
 
 class FloatMonitor(private val mContext: Context) {

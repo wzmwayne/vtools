@@ -1,4 +1,4 @@
-package com.omarea.ui
+package com.wzmwayne.scene.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,10 +9,10 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.omarea.library.basic.AppInfoLoader
-import com.omarea.model.BatteryAvgStatus
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.vtools.R
+import com.wzmwayne.scene.library.basic.AppInfoLoader
+import com.wzmwayne.scene.model.BatteryAvgStatus
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

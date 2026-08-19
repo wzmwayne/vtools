@@ -1,12 +1,12 @@
-package com.omarea.krscript.ui
+package com.wzmwayne.scene.krscript.ui
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.EditText
-import com.omarea.krscript.R
-import com.omarea.krscript.model.ActionParamInfo
-import com.omarea.krscript.model.ParamInfoFilter
+import com.wzmwayne.scene.krscript.R
+import com.wzmwayne.scene.krscript.model.ActionParamInfo
+import com.wzmwayne.scene.krscript.model.ParamInfoFilter
 
 class ParamsEditText(private var actionParamInfo: ActionParamInfo, private var context: Context) {
     fun render(): View {

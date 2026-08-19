@@ -1,4 +1,4 @@
-package com.omarea.store;
+package com.wzmwayne.scene.store;
 
 import android.content.Context;
 import android.content.pm.ActivityInfo;
@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.omarea.model.SceneConfigInfo;
-import com.omarea.vtools.R;
+import com.wzmwayne.scene.model.SceneConfigInfo;
+import com.wzmwayne.scene.R;
 
 import java.util.ArrayList;
 

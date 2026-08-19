@@ -1,4 +1,4 @@
-package com.omarea.model
+package com.wzmwayne.scene.model
 
 public class ZramWriteBackStat {
     public var backingDev: String? = null

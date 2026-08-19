@@ -1,4 +1,4 @@
-package com.omarea.common.ui
+package com.wzmwayne.scene.common.ui
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.AbsListView
 import android.widget.CompoundButton
 import android.widget.EditText
 import android.widget.Filterable
-import com.omarea.common.R
+import com.wzmwayne.scene.common.R
 
 class DialogAppChooser(
         private val darkMode: Boolean,

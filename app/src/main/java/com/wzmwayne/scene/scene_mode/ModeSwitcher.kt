@@ -1,15 +1,15 @@
-package com.omarea.scene_mode
+package com.wzmwayne.scene.scene_mode
 
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.omarea.Scene
-import com.omarea.common.shared.FileWrite
-import com.omarea.common.shell.KeepShellPublic
-import com.omarea.library.shell.PropsUtils
-import com.omarea.store.CpuConfigStorage
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.shared.FileWrite
+import com.wzmwayne.scene.common.shell.KeepShellPublic
+import com.wzmwayne.scene.library.shell.PropsUtils
+import com.wzmwayne.scene.store.CpuConfigStorage
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 
 /**
  * Created by Hello on 2018/06/03.

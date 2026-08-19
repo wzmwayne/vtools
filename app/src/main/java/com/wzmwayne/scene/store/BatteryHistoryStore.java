@@ -1,12 +1,12 @@
-package com.omarea.store;
+package com.wzmwayne.scene.store;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.omarea.model.BatteryAvgStatus;
-import com.omarea.model.BatteryStatus;
+import com.wzmwayne.scene.model.BatteryAvgStatus;
+import com.wzmwayne.scene.model.BatteryStatus;
 
 import java.util.ArrayList;
 

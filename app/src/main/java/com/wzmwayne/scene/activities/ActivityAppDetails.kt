@@ -1,4 +1,4 @@
-package com.omarea.vtools.activities
+package com.wzmwayne.scene.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,24 +15,24 @@ import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import com.omarea.common.ui.DialogHelper
-import com.omarea.data.EventBus
-import com.omarea.data.EventType
-import com.omarea.library.permissions.NotificationListener
-import com.omarea.library.shell.CGroupMemoryUtlis
-import com.omarea.model.SceneConfigInfo
-import com.omarea.permissions.WriteSettings
-import com.omarea.scene_mode.ImmersivePolicyControl
-import com.omarea.scene_mode.ModeSwitcher
-import com.omarea.scene_mode.SceneMode
-import com.omarea.store.SceneConfigStore
-import com.omarea.store.SpfConfig
-import com.omarea.utils.AccessibleServiceHelper
-import com.omarea.vtools.R
-import com.omarea.vtools.dialogs.DialogAppBoostPolicy
-import com.omarea.vtools.dialogs.DialogAppCGroupMem
-import com.omarea.vtools.dialogs.DialogAppOrientation
-import com.omarea.vtools.dialogs.DialogAppPowerConfig
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.data.EventBus
+import com.wzmwayne.scene.data.EventType
+import com.wzmwayne.scene.library.permissions.NotificationListener
+import com.wzmwayne.scene.library.shell.CGroupMemoryUtlis
+import com.wzmwayne.scene.model.SceneConfigInfo
+import com.wzmwayne.scene.permissions.WriteSettings
+import com.wzmwayne.scene.scene_mode.ImmersivePolicyControl
+import com.wzmwayne.scene.scene_mode.ModeSwitcher
+import com.wzmwayne.scene.scene_mode.SceneMode
+import com.wzmwayne.scene.store.SceneConfigStore
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.utils.AccessibleServiceHelper
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.dialogs.DialogAppBoostPolicy
+import com.wzmwayne.scene.dialogs.DialogAppCGroupMem
+import com.wzmwayne.scene.dialogs.DialogAppOrientation
+import com.wzmwayne.scene.dialogs.DialogAppPowerConfig
 import kotlinx.android.synthetic.main.activity_app_details.*
 
 class ActivityAppDetails : ActivityBase() {

@@ -1,4 +1,4 @@
-package com.omarea.vtools.popup
+package com.wzmwayne.scene.popup
 
 import android.accessibilityservice.AccessibilityService
 import android.annotation.SuppressLint
@@ -19,11 +19,11 @@ import android.view.WindowManager
 import android.view.WindowManager.LayoutParams
 import android.widget.TextView
 import android.widget.Toast
-import com.omarea.Scene
-import com.omarea.data.GlobalStatus
-import com.omarea.library.shell.*
-import com.omarea.store.SpfConfig
-import com.omarea.vtools.R
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.data.GlobalStatus
+import com.wzmwayne.scene.library.shell.*
+import com.wzmwayne.scene.store.SpfConfig
+import com.wzmwayne.scene.R
 import java.util.*
 
 public class FloatMonitorMini(private val mContext: Context) {

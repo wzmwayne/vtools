@@ -1,4 +1,4 @@
-package com.omarea.vtools.fragments
+package com.wzmwayne.scene.fragments
 
 import android.content.ComponentName
 import android.content.Intent
@@ -12,18 +12,18 @@ import android.widget.GridLayout
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.omarea.Scene
-import com.omarea.common.ui.DialogHelper
-import com.omarea.common.ui.ThemeMode
-import com.omarea.kr.KrScriptConfig
-import com.omarea.library.shell.BatteryUtils
-import com.omarea.permissions.CheckRootStatus
-import com.omarea.shell_utils.BackupRestoreUtils
-import com.omarea.utils.AccessibleServiceHelper
-import com.omarea.vtools.R
-import com.omarea.vtools.activities.*
-import com.omarea.vtools.dialogs.DialogXposedGlobalConfig
-import com.omarea.xposed.XposedCheck
+import com.wzmwayne.scene.Scene
+import com.wzmwayne.scene.common.ui.DialogHelper
+import com.wzmwayne.scene.common.ui.ThemeMode
+import com.wzmwayne.scene.kr.KrScriptConfig
+import com.wzmwayne.scene.library.shell.BatteryUtils
+import com.wzmwayne.scene.permissions.CheckRootStatus
+import com.wzmwayne.scene.shell_utils.BackupRestoreUtils
+import com.wzmwayne.scene.utils.AccessibleServiceHelper
+import com.wzmwayne.scene.R
+import com.wzmwayne.scene.activities.*
+import com.wzmwayne.scene.dialogs.DialogXposedGlobalConfig
+import com.wzmwayne.scene.xposed.XposedCheck
 import com.projectkr.shell.OpenPageHelper
 import kotlinx.android.synthetic.main.fragment_nav.*
 
@@ -182,7 +182,7 @@ class FragmentNav : Fragment(), View.OnClickListener {
             when (id) {
                 R.id.nav_freeze -> {
                     val intent = Intent(Intent.ACTION_VIEW)
-                    intent.setClassName("com.omarea.vtools", "com.omarea.vtools.activities.ActivityFreezeApps2")
+                    intent.setClassName("com.wzmwayne.scene", "com.wzmwayne.scene.activities.ActivityFreezeApps2")
                     startActivity(intent)
                     return
                 }
