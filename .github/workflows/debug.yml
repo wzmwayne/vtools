@@ -43,8 +43,9 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build debug APK
-        run: ./gradlew assembleDebug --build-cache
+      - name: Diagnose Kotlin sources
+        run: |
+          ./gradlew :common:compileDebugKotlin --info --rerun-tasks 2>&1 | grep -iE "OverScrollGridView|FastBlurUtility|ShellExecutor|compileDebugJava|input source|friend|\.java" | head -60
 
       - name: Save Android SDK cache
         if: steps.sdk-cache.outputs.cache-hit != 'true'
