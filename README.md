@@ -1,17 +1,18 @@
-# Scene
+# 声明
 
-> 使用本工具前，请确保你已经ROOT手机，并已安装busybox。你最好是个玩机专家，至少也该会刷机和修复系统。因为应用中部分高级功能可能会影响系统正常启动！！！
+因学业原因，本人暂时放缓各项目的更新，学业告一段落后继续。
 
----
+- 账号下的仓库目前设为**归档（只读）**，推送与合并请求会暂停处理；
+- 暂停期间页面与功能不保证更新速度，恢复后照常维护；
+- 原有说明文档已移至 `_readme.md`，内容保持不变。
 
-暂无详细说明
+## 为什么关注 keepandroidopen.org
 
----
+安卓正在从「开放安装」走向受控分发：侧载限制、开发者验证、平台签名垄断，
+会直接压缩个人开发者与普通用户的空间。这与项目是否更新无关，值得持续关注。
 
-**应用界面展示**
+<https://keepandroidopen.org>
 
+## 许可
 
-<img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/1.png" width="350" /> <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/2.png" width="350" />
-<img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/3.png" width="350" /> <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/4.png" width="350" />
-<img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/5.png" width="350" /> <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/6.png" width="350" />
-
+放弃所有权利（Unlicense / 公有领域），可自由取用、修改与再分发。
